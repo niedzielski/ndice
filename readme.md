@@ -1,4 +1,4 @@
-# ndice
+# ⚄ ndice
 
 ## License (GPLv3 and CC BY-SA 4.0)
 © 2016 Stephen Niedzielski
