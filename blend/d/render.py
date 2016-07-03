@@ -17,8 +17,8 @@ def render_cam(cam, suffix):
   bpy.context.scene.render.filepath = os.path.join(OUT_STEM, suffix)
   bpy.ops.render.render(write_still=True)
 
-bpy.context.scene.render.resolution_x = 1024
-bpy.context.scene.render.resolution_y = 1024
+bpy.context.scene.render.resolution_x = 2048
+bpy.context.scene.render.resolution_y = 2048
 bpy.context.scene.render.alpha_mode = 'TRANSPARENT'
 
 (start, end) = DIE.animation_data.action.frame_range
