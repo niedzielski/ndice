@@ -1,0 +1,25 @@
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+
+<style>
+  image { width: 100%; height: 100%; }
+</style>
+
+<defs>
+  <image id='0' xlink:href='0.png' />
+  <image id='1' xlink:href='1.png' />
+  <image id='2' xlink:href='2.png' />
+  <image id='3' xlink:href='3.png' />
+  <image id='4' xlink:href='4.png' />
+  <image id='5' xlink:href='5.png' />
+  <image id='6' xlink:href='6.png' />
+</defs>
+
+<use>
+  <animate
+    attributeName="xlink:href"
+    values="#1;#2;#3;#4;#5;#6"
+    dur="3s"
+    repeatCount="indefinite" />
+</use>
+
+</svg>
